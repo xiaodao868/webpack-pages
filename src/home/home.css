@@ -1,0 +1,23 @@
+body{
+    background: red;
+}
+.box{
+    align-items: center;
+    display: flex;
+}
+.box p{
+    color: #fff;
+    font-size: 34px;
+}
+.box p:last-child{
+    margin-left: auto;
+}
+
+.tx-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(../../assets/img/test.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
